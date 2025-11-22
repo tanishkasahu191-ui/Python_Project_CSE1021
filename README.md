@@ -1,25 +1,27 @@
-**WhatsApp Message Scheduler**
+PROJECT TITLE: **WhatsApp Message Scheduler**
+--------------------------------
 A simple Python-based tool that lets you schedule and automatically send WhatsApp messages at your desired date and time using the **Twilio WhatsApp API**.
-by **Tanishka Sahu**  
+---------------------------------------------------------------------------
+by :**Tanishka Sahu**  
 Registration No: 25BCE10056 | CSE-SCOPE 1st Year | VIT BHOPAL UNIVERSITY
 -----------------------------------------------------------------------------
 
 
-**Overview of the Project
+**Overview of the Project**
 
 This is a console-based **WhatsApp Message Scheduler** that allows users to:
-- Schedule a WhatsApp message to be sent automatically on a specific future date and time.
-- See a live countdown until the message is sent.
-- Send the message instantly when the scheduled time arrives — fully automated!
+- ------> Schedule a WhatsApp message to be sent automatically on a specific future date and time.
+- -------> See a live countdown until the message is sent.
+- ------->Send the message instantly when the scheduled time arrives.
 
-Perfect for birthday wishes, reminders, meeting alerts, festival greetings, etc.
+- ------->Perfect for birthday wishes, reminders, meeting alerts, festival greetings, etc.
 
-> Currently uses **Twilio's free WhatsApp Sandbox** (great for testing and personal use).
+- ------> Currently uses **Twilio's free WhatsApp Sandbox** (great for testing and personal use).
 
-**
+
 ----------------------------------------------------------------------
 
-**Features
+**Features**
 
 - Schedule messages for any future date & time  
 - Input validation (date, time, empty message check)  
@@ -28,41 +30,36 @@ Perfect for birthday wishes, reminders, meeting alerts, festival greetings, etc.
 - Success/Failure feedback with Message SID  
 - Beginner-friendly and fully functional  
 
-**
+
 -------------------------------------------------------------------------------
 
-**Technologies / Tools Used
+**Technologies / Tools Used**
 
  Technology  and  Purpose                       
  Python 3.14.0   ------>       Core programming language        
  Twilio SDK   ---->     Sending whatsApp messages (An API which is tied up with whatsApp)       
  datetime, time  ----->  handling scheduling & countdown  
- Twilio whatsApp Sandbox -----> free testing environment     **
+ Twilio whatsApp Sandbox -----> free testing environment     
 
  ------------------------------------------------------------------------
 
-** STEPS TO INSTALL AND RUN THE PROJECT
-- Python 3 installed
-- A free [Twilio Account](https://www.twilio.com/try-twilio)
-- WhatsApp Sandbox activated
- **
-
--Install Twilio library
-pip install twilio   (run it in terminal to install twilio library)
--Get your Twilio credentials
-.Go to https://console.twilio.com
-.Copy your Account SID and Auth Token
-
--Join Twilio WhatsApp Sandbox
-Open WhatsApp and send join <your-sandbox-code> to:text+1 415 523 8886
-Your contact number is now connected.
-
--Update the code with your credentials
--Run the program
--Enter details when prompted
+** Steps to install and run the project**
+- Python 3.14.0 installed
+-  [Twilio Account](https://www.twilio.com/try-twilio)
+- WhatsApp Sandbox activation
+- Install Twilio library
+- pip install twilio   (run it in terminal to install twilio library)
+- Get your Twilio credentials
+- Go to https://console.twilio.com
+- Copy your Account SID and Auth Token and add it to the code, never share it to someone for security reasons
+- Join Twilio WhatsApp Sandbox
+- Open WhatsApp and send some text message to +1 415 523 8XX6(twilio's official number for whatsapp connection)
+- Your contact number is now connected.
+- Run the program
+- Enter details when prompted::
 Receiver name,
 Receiver WhatsApp number (with country code ; example: +91987654XXXX),
-Message,
+Message to be sent,
 Date (YYYY-MM-DD),
 Time (HH:MM in 24-hour format),
 
@@ -70,15 +67,15 @@ Time (HH:MM in 24-hour format),
 Now,The program will wait and send the message automatically
 The message will be recieved by the number user entered.
 ----------------------------------------------------------------
-**Instructions for Testing
+**Instructions for Testing**
 
--Use your own WhatsApp number as the receiver for testing.
--Schedule a message 1–2 minutes in the future.
--Watch the live countdown.
--When time reaches zero → Message will be sent!
--You’ll receive it on WhatsApp and see "Message sent successfully!" in terminal.
+- ----->Use your own WhatsApp number as the receiver for testing purpose
+- ------>Schedule a message 1–2 minutes in the future
+- ------->Watch the live countdown 
+- -------> time reaches zero → Message will be sent.
+- ------>You’ll receive it on WhatsApp and see "Message sent successfully!" in terminal.
 
-NOTE: Keep the terminal/program running until it is (the message) is sent.**
+NOTE: Keep the terminal/program running until it is (the message) is sent.
 
 
 ------------------------------------------------------
