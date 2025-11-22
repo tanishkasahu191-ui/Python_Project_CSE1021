@@ -9,8 +9,8 @@ import time
 import sys
 
 # Twilio acc details (keeping blank for safety)
-account_sid = "AC370f4371c8c3b0d76ccb406af1c9847e" #PUT YOUR ACC SID HERE"
-auth_token = "a45ab5294e1b44cbb17a8ec8bb4cad10" #PUT YOUR AUTHORIZED TOKEN"
+account_sid = "" #PUT YOUR ACC SID HERE"
+auth_token = "" #PUT YOUR AUTHORIZED TOKEN"
 
 # official WhatsApp sandbox number
 twilio_whno = "whatsapp:+14155238886"
@@ -80,4 +80,5 @@ def send_msg():
 send_msg()
 
 print("Done. Program finished.")
+
 input("Press Enter to exit...")
